@@ -19,15 +19,31 @@ def main():
                 for x in range(len(search)):
                     myrow = search.iloc[x]
                     print(myrow["StLastName"] + ", " + myrow["StFirstName"] + ", " + str(myrow["Grade"]) + ", " + str(myrow["Classroom"]) + ", " + myrow["TLastName"] + ", " + myrow["TFirstName"])
+
+            elif (len(command) == 3 and (command[2] == "B" or command[2] == "Bus")):
+                search = mycsv[mycsv["StLastName"]==command[1]]
+                for x in range(len(search)):
+                    myrow = search.iloc[x]
+                    print(myrow["StLastName"] + ", " + myrow["StFirstName"] + ", " + str(myrow["Bus"]))
+                
         
-        elif (command[0] == "T:" or command[0] == "Teacher:"):
-            print("Teacher")
-        
-        elif (command[0] == "B:" or command[0] == "Bus:"):
-            print("Bus")
+        elif ((command[0] == "T:" or command[0] == "Teacher:") and len(command) == 2):
+            search = mycsv[mycsv["TLastName"]==command[1]]
+            for x in range(len(search)):
+                myrow = search.iloc[x]
+                print(myrow["StLastName"] + ", " + myrow["StFirstName"])
 
         elif (command[0] == "G:" or command[0] == "Grade:"):
-            print("Grade")
+            search = mycsv[mycsv["Grade"]==command[1]]
+            for x in range(len(search)):
+                myrow = search.iloc[x]
+                print(myrow["StLastName"] + ", " + myrow["StFirstName"])
+        
+        elif ((command[0] == "B:" or command[0] == "Bus:") and len(command)==2):
+            search = mycsv[mycsv["TLastName"]==command[1]]
+            for x in range(len(search)):
+                myrow = search.iloc[x]
+                print(myrow["StLastName"] + ", " + myrow["StFirstName"] + ", " + myrow["Grade"] + ", " + myrow["Classroom"])
 
         elif (command[0] == "A:" or command[0] == "Average:"):
             print("Average")

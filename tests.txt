@@ -1,0 +1,195 @@
+//CSC 365. Winter 2022
+//Andy Do
+//Lab 1-1 test suite
+
+//TC-1
+//Tests Requirements R4
+// short form command name, existing student
+//expected output: HAVIR, BOBBIE, 2, 108, HAMER, GAVIN
+S: HAVIR
+
+//TC-2
+//Tests Requirements R4
+// long form command name, existing student
+//expected output: CORKER, CARTER, 4, 105, HANTZ, JED
+Student: CORKER
+
+//TC-3
+//Tests Requirements R4
+// short form command name, non-existing student
+//expected output: <empty line>
+S: DO
+
+//TC-4
+//Tests Requirements R5
+// short form command name, existing student short form bus route
+//expected output: OBREIN, STAN, 52
+S: OBREIN B
+
+//TC-5
+//Tests Requirements R5
+// short form command name, existing student long form bus route
+//expected output: CORONADO, DIMPLE, 52
+S: CORONADO Bus
+
+//TC-6
+//Tests Requirements E1
+// short form command name, existing student with extra parameters
+//expected output: Invalid command
+S: OGAS Bus extra
+
+//TC-7
+//Tests Requirements R6
+// short form command name, existing teacher
+//expected output: CORKER, CARTER
+IMMERMAN, DEVIN
+RAPOSE, ALONZO
+OGAS, ERVIN
+MASSART, ELDON
+BEX, TAMESHA
+T: HANTZ
+
+//TC-8
+//Tests Requirements R6
+// long form command name, existing teacher
+//expected output: LIBRANDI, TODD
+HAVIR, BOBBIE
+SARAO, DIEDRA
+VANCOTT, MIKE
+WICINSKY, TERESE
+KOZOLA, BUSTER
+MULLINGS, LEIGHANN
+BUSSMANN, BILLY
+BERBES, DICK
+MULGREW, RANDELL
+TOWLEY, LANE
+Teacher: HAMER
+
+//TC-9
+//Tests Requirements R7
+// short form command name, grade with students
+//expected output: COOKUS, XUAN
+ELHADDAD, SHANTE
+BRODERSEN, HYE
+SWEDLUND, SHARRI
+CIGANEK, MANIE
+COVINGTON, TOMAS
+EARLY, TORY
+LINHART, LELA
+THEUNISSEN, GRACE
+G: 3
+
+//TC-10
+//Tests Requirements R7
+// long form command name, grade with no students
+//expected output: <empty line>
+G: 10
+
+//TC-11
+//Tests Requirements R7
+// long form command name, grade with students
+//expected output: CORKER, CARTER
+IMMERMAN, DEVIN
+RAPOSE, ALONZO
+WORBINGTON, DEEDRA
+OGAS, ERVIN
+SPANICEK, KENDRA
+GUICE, CODI
+GLOR, HUNG
+GUM, NOAH
+MASSART, ELDON
+NOVICK, ROLLAND
+DURAND, CARLEE
+BEX, TAMESHA
+DELUNA, KRYSTAL
+COMO, ZANDRA
+Grade: 4
+
+//TC-12
+//Tests Requirements R8
+// short form command name, existing bus route
+//expected output: COOKUS, XUAN, 3, 107
+ELHADDAD, SHANTE, 3, 107
+IMMERMAN, DEVIN, 4, 105
+OBREIN, STAN, 6, 111
+CORONADO, DIMPLE, 6, 102
+SARAO, DIEDRA, 2, 108
+EARLY, TORY, 3, 107
+KEMERER, ROSETTA, 6, 102
+B: 52
+
+//TC-13
+//Tests Requirements E1
+// short form command name, existing bus route with extra parameter
+//expected output: Invalid command
+B: 52 HAVIR
+
+//TC-1
+//Tests Requirements R8
+// long form command name, existing bus route
+//expected output: WOOLERY, NOLAN, 2, 104
+STERBACK, PETER, 6, 111
+LIBRANDI, TODD, 2, 108
+RAPOSE, ALONZO, 4, 105
+COVINGTON, TOMAS, 3, 107
+MULLINGS, LEIGHANN, 2, 108
+DURAND, CARLEE, 4, 101
+FRIEDSTROM, REED, 6, 106
+Bus: 51
+
+//TC-14
+//Tests Requirements R9
+// long form command name, grade with students using H
+//expected output: CORKER, CARTER, 3.12, HANTZ, JED, 53
+RAPOSE, ALONZO, 3.12, HANTZ, JED, 51
+Grade: 4 H
+
+//TC-15
+//Tests Requirements R9
+// long form command name, grade with students using Low
+//expected output: KOZOLA, BUSTER, 2.76, HAMER, GAVIN, 55
+Grade: 2 Low
+
+//TC-16
+//Tests Requirements R10
+// short form command name, grade with students
+//expected output: Grade 6 has average GPA of 2.977142857142857
+A: 6
+
+//TC-17
+//Tests Requirements R10
+// long form command name, grade with students
+//expected output: Grade 4 has average GPA of 2.951333333333334
+Average: 4
+
+//TC-18
+//Tests Requirements R11
+// short form command name
+//expected output: 1     2
+3     9
+2    13
+4    15
+6    21
+I
+
+//TC-19
+//Tests Requirements R11
+// long form command name
+//expected output: 1     2
+3     9
+2    13
+4    15
+6    21
+Info
+
+//TC-20
+//Tests Requirements E1
+// invalid command
+//expected output: Invalid command
+TESTS
+
+//TC-21
+//Tests Requirements R12
+// quit command
+//expected output: program terminates
+Q

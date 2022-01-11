@@ -1,0 +1,103 @@
+Enter command for schoolsearch: S: HAVIR
+HAVIR, BOBBIE, 2, 108, HAMER, GAVIN
+Enter command for schoolsearch: Student: CORKER
+CORKER, CARTER, 4, 105, HANTZ, JED
+Enter command for schoolsearch: S: DO
+Enter command for schoolsearch: S: OBREIN B
+OBREIN, STAN, 52
+Enter command for schoolsearch: S: CORONADO Bus
+CORONADO, DIMPLE, 52
+Enter command for schoolsearch: S: OGAS Bus extra
+Invalid Command
+Enter command for schoolsearch: T: HANTZ
+CORKER, CARTER
+IMMERMAN, DEVIN
+RAPOSE, ALONZO
+OGAS, ERVIN
+MASSART, ELDON
+BEX, TAMESHA
+Enter command for schoolsearch: Teacher: HAMER
+LIBRANDI, TODD
+HAVIR, BOBBIE 
+SARAO, DIEDRA
+VANCOTT, MIKE
+WICINSKY, TERESE
+KOZOLA, BUSTER
+MULLINGS, LEIGHANN
+BUSSMANN, BILLY
+BERBES, DICK
+MULGREW, RANDELL
+TOWLEY, LANE
+Enter command for schoolsearch: G: 3
+COOKUS, XUAN
+ELHADDAD, SHANTE
+BRODERSEN, HYE
+SWEDLUND, SHARRI
+CIGANEK, MANIE
+COVINGTON, TOMAS
+EARLY, TORY
+LINHART, LELA
+THEUNISSEN, GRACE
+Enter command for schoolsearch: G: 10
+Enter command for schoolsearch: Grade: 4
+CORKER, CARTER
+IMMERMAN, DEVIN
+RAPOSE, ALONZO
+WORBINGTON, DEEDRA
+OGAS, ERVIN
+SPANICEK, KENDRA
+GUICE, CODI
+GLOR, HUNG
+GUM, NOAH
+MASSART, ELDON
+NOVICK, ROLLAND
+DURAND, CARLEE
+BEX, TAMESHA
+DELUNA, KRYSTAL
+COMO, ZANDRA
+Enter command for schoolsearch: B: 52
+COOKUS, XUAN, 3, 107
+ELHADDAD, SHANTE, 3, 107
+IMMERMAN, DEVIN, 4, 105
+OBREIN, STAN, 6, 111
+CORONADO, DIMPLE, 6, 102
+SARAO, DIEDRA, 2, 108
+EARLY, TORY, 3, 107
+KEMERER, ROSETTA, 6, 102
+Enter command for schoolsearch: B: 52 HAVIR
+Invalid Command
+Enter command for schoolsearch: Bus: 51
+WOOLERY, NOLAN, 2, 104
+STERBACK, PETER, 6, 111
+LIBRANDI, TODD, 2, 108
+RAPOSE, ALONZO, 4, 105
+COVINGTON, TOMAS, 3, 107
+MULLINGS, LEIGHANN, 2, 108
+DURAND, CARLEE, 4, 101
+FRIEDSTROM, REED, 6, 106
+Enter command for schoolsearch: Grade: 4 H
+CORKER, CARTER, 3.12, HANTZ, JED, 53
+RAPOSE, ALONZO, 3.12, HANTZ, JED, 51
+Enter command for schoolsearch: Grade: 2 Low
+KOZOLA, BUSTER, 2.76, HAMER, GAVIN, 55
+Enter command for schoolsearch: A: 6
+Grade 6 has average GPA of 2.977142857142857
+Enter command for schoolsearch: Average: 4
+Grade 4 has average GPA of 2.951333333333334
+Enter command for schoolsearch: I
+1     2
+3     9
+2    13
+4    15
+6    21
+Name: Grade, dtype: int64
+Enter command for schoolsearch: Info
+1     2
+3     9
+2    13
+4    15
+6    21
+Name: Grade, dtype: int64
+Enter command for schoolsearch: TESTS
+Invalid Command
+Enter command for schoolsearch: Q

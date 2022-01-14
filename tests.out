@@ -100,4 +100,44 @@ Enter command for schoolsearch: Info
 Name: Grade, dtype: int64
 Enter command for schoolsearch: TESTS
 Invalid Command
+Enter command for schoolsearch: C: 107 S
+COOKUS,  XUAN
+ELHADDAD,  SHANTE
+SWEDLUND,  SHARRI
+CIGANEK,  MANIE
+COVINGTON,  TOMAS
+EARLY,  TORY
+LINHART,  LELA
+Enter command for schoolsearch: C: 107 Student
+COOKUS,  XUAN
+ELHADDAD,  SHANTE
+SWEDLUND,  SHARRI
+CIGANEK,  MANIE
+COVINGTON,  TOMAS
+EARLY,  TORY
+LINHART,  LELA
+Enter command for schoolsearch: C: 105 T
+HANTZ,  JED
+Enter command for schoolsearch: G: 4 T
+COOL,  REUBEN
+HANTZ,  JED
+CHIONCHIO,  PERLA
+Enter command for schoolsearch: G: 6 Teacher
+KERBS,  BENITO
+BODZIONY,  LUZ
+GAMBREL,  JAE
+NISTENDIRK,  NANCY
+Enter command for schoolsearch: E
+101 has 1 students
+102 has 5 students
+103 has 2 students
+104 has 2 students
+105 has 6 students
+106 has 2 students
+107 has 7 students
+108 has 11 students
+109 has 5 students
+110 has 2 students
+111 has 9 students
+112 has 8 students
 Enter command for schoolsearch: Q

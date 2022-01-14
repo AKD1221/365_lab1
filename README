@@ -4,3 +4,17 @@ Run program:
 - run lab1.py with students.txt in same directory
 - input instructions into program specified by lab handout (program is case sensitive!)
 - Example -> S: HAMER
+
+Example for new commands!
+
+NR1:
+C[lassroom]: <number> S[tudent]
+
+NR2:
+C[lassroom]: <number> T[eacher]
+
+NR3:
+G[rade]: <number> T[eacher]
+
+NR4:
+E[nrollment]

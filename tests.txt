@@ -189,7 +189,45 @@ Info
 TESTS
 
 //TC-21
+//Tests Requirements NR1
+// invalid command
+//expected output: Invalid command
+C: 107 S
+
+//TC-22
+//Tests Requirements NR1
+// invalid command
+//expected output: Invalid command
+C: 107 Student
+
+//TC-23
+//Tests Requirements NR2
+// invalid command
+//expected output: Invalid command
+C: 105 T
+
+//TC-24
+//Tests Requirements NR3
+// invalid command
+//expected output: Invalid command
+G: 4 T
+
+//TC-25
+//Tests Requirements NR3
+// invalid command
+//expected output: Invalid command
+G: 6 Teacher
+
+//TC-26
+//Tests Requirements NR4
+// invalid command
+//expected output: Invalid command
+E
+
+
+//TC-21
 //Tests Requirements R12
 // quit command
 //expected output: program terminates
 Q
+
